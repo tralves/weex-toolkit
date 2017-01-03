@@ -128,7 +128,7 @@ var Previewer = function () {
                 try {
                     fs.lstatSync(outputPath).isDirectory;
                 } catch (e) {
-                    npmlog.info(yargs.help());
+                    npmlog.info(yargs.showHelp());
                     npmlog.info("when input path is dir , output path must be dir too");
                     process.exit(1);
                 }
@@ -408,7 +408,7 @@ var argv = yargs.usage('\nUsage: weex foo/bar/we_file_or_dir_path  [options]' + 
     }
 
     if (badWePath && !transformServerPath) {
-        npmlog.info(yargs.help());
+        npmlog.info(yargs.showHelp());
         process.exit(1);
     }
 
@@ -417,7 +417,7 @@ var argv = yargs.usage('\nUsage: weex foo/bar/we_file_or_dir_path  [options]' + 
         try {
             var res = fs.accessSync(transformServerPath);
         } catch (e) {
-            npmlog.info(yargs.help());
+            npmlog.info(yargs.showHelp());
             npmlog.info('path ' + absPath + ' not accessible');
             process.exit(1);
         }
@@ -429,7 +429,7 @@ var argv = yargs.usage('\nUsage: weex foo/bar/we_file_or_dir_path  [options]' + 
     var smallQR = argv.smallqr;
     var outputPath = argv.o; // js bundle file path  or  transform output dir path
     if (typeof outputPath != "string") {
-        npmlog.info(yargs.help());
+        npmlog.info(yargs.showHelp());
         npmlog.info("must specify output path ");
         process.exit(1);
     }
