@@ -1,0 +1,6 @@
+{
+  "AppName":"WeexInitApp",
+  "AppId":"com.tralves.weexinit",
+  "SplashText":"Hello\nWeex\nInit",
+  "WeexBundle":"app.weex.js"
+}

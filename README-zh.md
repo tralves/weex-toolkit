@@ -65,7 +65,7 @@ $ weex init your_project_name
     |-- app.js
     |—— assets
     |—— /src
-    |     |—— foo.vue
+    |     |—— App.vue
     |—— /build
     |—— weex.html
     |—— index.html

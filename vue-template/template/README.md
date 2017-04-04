@@ -1,6 +1,6 @@
-# {{ name }}
+# test-init2
 
-> {{ description }}
+> test-init2
 
 ## getting start
 

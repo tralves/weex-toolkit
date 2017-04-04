@@ -1,6 +1,6 @@
 {
-  "name": "{{ name }}",
-  "description": "{{ description }}",
+  "name": "test-init2",
+  "description": "test-init2",
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
@@ -15,11 +15,11 @@
     "debug": "weex-devtool"
   },
   "dependencies": {
-    "vue": "^2.1.8",
+    "vue": "^2.1.10",
     "vue-router": "^2.1.1",
     "vuex": "^2.1.1",
     "vuex-router-sync": "^4.0.1",
-    "weex-vue-render": "^0.11.2"
+    "weex-vue-render": "^0.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.20.0",
@@ -29,10 +29,9 @@
     "ip": "^1.1.4",
     "serve": "^1.4.0",
     "vue-loader": "^10.0.2",
-    "vue-template-compiler": "^2.1.8",
+    "vue-template-compiler": "^2.1.10",
     "webpack": "^1.14.0",
     "weex-devtool": "^0.2.64",
-    "weex-loader": "^0.4.1",
-    "weex-vue-loader": "^0.2.5"
+    "weex-loader": "^0.4.4"
   }
 }

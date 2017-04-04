@@ -67,7 +67,7 @@ Your new project directory list below:
     |-- app.js
     |—— assets
     |—— /src
-    |     |—— foo.vue
+    |     |—— App.vue
     |—— /build
     |—— weex.html
     |—— index.html
